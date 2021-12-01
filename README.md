@@ -2,6 +2,17 @@ Overview
 ------
 This repository implements some common path planning algorithms used in robotics, including Search-based algorithms and Sampling-based algorithms. We designed animation for each algorithm to display the running process. The related papers are listed in [Papers](https://github.com/zhm-real/PathPlanning#papers).
 
+Modification
+------
+* fix import paths of scripts in `Sampling_based_Planning/rrt_2D/`
+
+Usage
+------
+* navigate into a specific folder
+* `python3 rrt.py`
+* `pip3 install ***` if any package is missing
+
+
 Directory Structure
 ------
     .
