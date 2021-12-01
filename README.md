@@ -4,7 +4,9 @@ This repository implements some common path planning algorithms used in robotics
 
 Modification
 ------
-* fix import paths of scripts in `Sampling_based_Planning/rrt_2D/`
+* fix import paths of scripts in 
+  * `Sampling_based_Planning/rrt_2D/`
+  * `Search_based_Planning/Search_3D/`
 
 Usage
 ------

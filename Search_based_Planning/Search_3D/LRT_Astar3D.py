@@ -11,11 +11,11 @@ import os
 import sys
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/../../Search_based_Planning/")
-from Search_3D.env3D import env
-from Search_3D import Astar3D
-from Search_3D.utils3D import getDist, getRay, g_Space, Heuristic, getNearest, isCollide, \
+from env3D import env
+import Astar3D
+from utils3D import getDist, getRay, g_Space, Heuristic, getNearest, isCollide, \
     cost, obstacleFree, children
-from Search_3D.plot_util3D import visualization
+from plot_util3D import visualization
 import queue
 
 class LRT_A_star2:
